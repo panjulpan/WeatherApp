@@ -13,8 +13,8 @@ const App = () => {
     saveUser: data => {
       setUserData({
         ...userData,
-        username: data.username,
-        location: data.location,
+        username: data.name,
+        location: data.city,
       });
     },
     userInfo: userData,

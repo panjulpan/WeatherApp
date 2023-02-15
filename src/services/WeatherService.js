@@ -1,4 +1,4 @@
-import {Client} from '../../api';
+import {Client} from '../api';
 
 const WeatherService = {
   getWeatherByCity: async city => {
