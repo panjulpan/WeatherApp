@@ -9,6 +9,8 @@ Step untuk Menjalankan Aplikasi ini:
 
 Jika terjadi error saat melakukan 'npm install' bisa coba di tambahkan flag '--force' atau '--legacy-peer-deps'
 
+PREVIEW:
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/56853695/219658544-12e7f2df-acc3-4390-877a-36634f033177.png" width=200 height=422>   
 <img src="https://user-images.githubusercontent.com/56853695/219658554-2a70ab50-a0dc-4684-858c-db777505616d.png" width=200 height=422>
