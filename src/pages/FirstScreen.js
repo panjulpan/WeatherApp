@@ -90,6 +90,12 @@ const FirstScreen = ({navigation}) => {
           searchPlaceholder="Cari Provinsi"
           style={styles.dropdownStyle}
           maxHeight={200}
+          placeholderStyle={styles.dropdownTextStyle}
+          selectedTextStyle={styles.dropdownTextStyle}
+          itemTextStyle={styles.dropdownTextStyle}
+          containerStyle={styles.dropdownContainerStyle}
+          inputSearchStyle={styles.inputSearchContainerStyle}
+          keyboardAvoiding={false}
         />
         <Dropdown
           data={cityData}
@@ -110,6 +116,12 @@ const FirstScreen = ({navigation}) => {
               : styles.dropdownStyle
           }
           maxHeight={200}
+          placeholderStyle={styles.dropdownTextStyle}
+          selectedTextStyle={styles.dropdownTextStyle}
+          itemTextStyle={styles.dropdownTextStyle}
+          containerStyle={styles.dropdownContainerStyle}
+          inputSearchStyle={styles.inputSearchContainerStyle}
+          keyboardAvoiding={false}
         />
         <TouchableOpacity onPress={prosesHandler} style={styles.button}>
           <Text style={styles.buttonText}>Proses</Text>
@@ -179,6 +191,22 @@ const styles = StyleSheet.create({
     fontFamily: 'OpenSans-Regular',
     fontSize: 14,
     backgroundColor: Colors.grey,
+  },
+  dropdownTextStyle: {
+    fontFamily: 'OpenSans-Regular',
+    fontSize: 14,
+    color: Colors.yinminBlue,
+  },
+  dropdownContainerStyle: {
+    borderBottomLeftRadius: 10,
+    borderBottomRightRadius: 10,
+    padding: 10,
+  },
+  inputSearchContainerStyle: {
+    borderRadius: 10,
+    fontFamily: 'OpenSans-Regular',
+    fontSize: 12,
+    padding: 5,
   },
   button: {
     alignSelf: 'center',

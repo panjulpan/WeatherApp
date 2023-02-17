@@ -1,4 +1,4 @@
 const BaseURL = 'https://api.openweathermap.org/';
-const ImgURL = 'http://openweathermap.org/img/wn/';
+const ImgURL = 'https://openweathermap.org/img/wn/';
 
 export {BaseURL, ImgURL};

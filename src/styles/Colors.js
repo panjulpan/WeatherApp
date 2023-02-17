@@ -8,6 +8,7 @@ const Colors = {
   dessertSand: '#DBB6A4',
   chinaRose: '#8F4F69',
   yinminBlue: '#424D76',
+  yinminBlueTrans: 'rgba(66, 77, 118, 0.4)',
   greenApple: '#9FA438',
 };
 
